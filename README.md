@@ -70,6 +70,15 @@ As a lifelong learner in the ever-changing world of software development, I'm co
 
 ## 💼 What I Bring to the Table
 
+### 🚀 **Full-Stack & Mobile Expertise**
+
+- End-to-end development from web applications to mobile apps
+- Cross-platform mobile development with React Native and Flutter
+- RESTful API design with Python/Django and Node.js
+- Modern frontend frameworks with server-side rendering
+- Native mobile app deployment to App Store and Google Play
+- Cloud deployment and DevOps practices
+
 ### 🎯 **Type-Safe Development**
 
 - Extensive experience with **TypeScript** across the full stack
@@ -102,15 +111,6 @@ As a lifelong learner in the ever-changing world of software development, I'm co
 - Database management across PostgreSQL and MySQL
 - Cloud storage solutions and serverless architectures
 - Infrastructure as Code and containerization with Docker
-
-### 🚀 **Full-Stack & Mobile Expertise**
-
-- End-to-end development from web applications to mobile apps
-- Cross-platform mobile development with React Native and Flutter
-- RESTful API design with Python/Django and Node.js
-- Modern frontend frameworks with server-side rendering
-- Native mobile app deployment to App Store and Google Play
-- Cloud deployment and DevOps practices
 
 ---
 
