@@ -1,3 +1,5 @@
+> **[日本語版はこちら / Japanese version here](README.ja.md)**
+
 # 👋 Hi, I'm Sodavin
 
 **Full Stack Software Engineer** | Building scalable, type-safe web & mobile applications with clean architecture
@@ -115,8 +117,7 @@ As a lifelong learner in the ever-changing world of software development, I'm co
 ## 📊 GitHub Stats & Achievements
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sodavinchheng&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sodavinchheng&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&langs_count=20" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sodavinchheng&layout=compact&theme=dark&hide_border=true&bg_color=0d1117" alt="Top Languages" />
 </div>
 
 ### 🏆 GitHub Trophies & Achievements
