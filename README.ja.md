@@ -111,7 +111,7 @@
 - React Native と Flutter によるクロスプラットフォームモバイル開発
 - Python/Django と Node.js による RESTful API 設計
 - サーバーサイドレンダリングを使用した最新フロントエンドフレームワーク
-- ネイティブモバイルアプリのApp StoreとGoogle Playへの配信
+- ネイティブモバイルアプリの App Store と Google Play への配信
 - クラウドへのデプロイと DevOps 実践
 
 ---
@@ -130,17 +130,6 @@
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=sodavinchheng&theme=dark&hide_border=true&background=0d1117&exclude_days=Sun%2CSat" alt="GitHub Streak" />
-</div>
-
-### 📈 コントリビューション活動
-
-<div align="center">
-  <br>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sodavinchheng&theme=github-compact&hide_border=true&bg_color=0d1117&custom_title=%F0%9F%93%8A%20%E5%85%88%E6%9C%88&days=365" alt="先月" />
-  
-  <br><br>
-  <br>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sodavinchheng&theme=github-compact&hide_border=true&bg_color=0d1117&days=90&custom_title=%F0%9F%93%8A%20%E9%81%8E%E5%8E%BB3%E3%83%B6%E6%9C%88" alt="過去3ヶ月" />
 </div>
 
 ---

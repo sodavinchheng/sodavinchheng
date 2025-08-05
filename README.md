@@ -130,17 +130,6 @@ As a lifelong learner in the ever-changing world of software development, I'm co
   <img src="https://github-readme-streak-stats.herokuapp.com?user=sodavinchheng&theme=dark&hide_border=true&background=0d1117&exclude_days=Sun%2CSat" alt="GitHub Streak" />
 </div>
 
-### 📈 Contribution Activity
-
-<div align="center">
-  <br>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sodavinchheng&theme=github-compact&hide_border=true&bg_color=0d1117&custom_title=%F0%9F%93%8A%20Last%20Month&days=365" alt="Last Month" />
-  
-  <br><br>
-  <br>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sodavinchheng&theme=github-compact&hide_border=true&bg_color=0d1117&days=90&custom_title=%F0%9F%93%8A%20Last%203%20Months" alt="Last 3 Months" />
-</div>
-
 ---
 
 ## 🤝 Let's Connect
