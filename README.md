@@ -8,16 +8,16 @@
 
 ## 🚀 About Me
 
-I'm a passionate full-stack developer who thrives at the intersection of cutting-edge technology and exceptional user experiences. I believe in writing maintainable, well-structured code that delivers exceptional user experiences while staying ahead of the rapidly evolving tech landscape. I prioritize type safety and code reusability to create robust applications that are not only scalable and developer-friendly, but also intuitive and reliable for end users.
+I'm a passionate full-stack developer who thrives at the intersection of cutting-edge technology and exceptional user experiences. I believe in writing maintainable, well-structured code that delivers exceptional user experiences while staying ahead of the rapidly evolving tech landscape. I prioritize **type safety** and **code reusability** to create robust applications that are not only scalable and developer-friendly, but also intuitive and reliable for end users.
 
 As a lifelong learner in the ever-changing world of software development, I'm constantly exploring emerging technologies, experimenting with new frameworks, and adapting to industry trends. Whether it's the latest TypeScript features, cutting-edge mobile development patterns, or innovative cloud architectures, I stay curious and hands-on with the technologies that shape our industry's future.
 
-- 🔧 **Philosophy**: Clean, generic, reusable code with strong typing
-- 🎯 **Focus**: Building applications that delight users while being maintainable for developers
+- 🔧 **Philosophy**: Clean, generic, reusable code with strong typing and modern best practices
+- 🎯 **Focus**: Building applications that delight users while embracing the latest development paradigms
 - 🎨 **User-Centric**: Intuitive interfaces, seamless interactions, and near-zero defects
 - 📚 **Always Learning**: Continuously exploring new technologies, frameworks, and industry trends
-- 🚀 **Innovation Driven**: Early adopter of emerging tools that enhance developer productivity and user experience
-- 💡 **Goal**: Creating solutions that work flawlessly for everyone who touches them
+- 🚀 **Innovation-Driven**: Early adopter of emerging tools that enhance developer productivity and user experience
+- 💡 **Goal**: Creating solutions that work flawlessly for everyone while pushing the boundaries of what's possible
 
 ---
 
@@ -25,6 +25,9 @@ As a lifelong learner in the ever-changing world of software development, I'm co
 
 ### Frontend
 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
@@ -53,6 +56,7 @@ As a lifelong learner in the ever-changing world of software development, I'm co
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -60,6 +64,7 @@ As a lifelong learner in the ever-changing world of software development, I'm co
 ### Tools & Practices
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
@@ -77,7 +82,7 @@ As a lifelong learner in the ever-changing world of software development, I'm co
 - RESTful API design with Python/Django and Node.js
 - Modern frontend frameworks with server-side rendering
 - Native mobile app deployment to App Store and Google Play
-- Cloud deployment and DevOps practices
+- Automated deployment pipelines and continuous integration workflows
 
 ### 🎯 **Type-Safe Development**
 
@@ -107,10 +112,18 @@ As a lifelong learner in the ever-changing world of software development, I'm co
 
 ### ☁️ **Multi-Cloud Experience**
 
-- Deployment and scaling on AWS and Google Cloud Platform
-- Database management across PostgreSQL and MySQL
+- Deployment and scaling on AWS, Google Cloud Platform, and Firebase
+- Database management across PostgreSQL, MySQL, and Firebase Firestore
 - Cloud storage solutions and serverless architectures
+- Real-time applications with Firebase Realtime Database and Cloud Functions
 - Infrastructure as Code and containerization with Docker
+
+### 🔄 **DevOps & CI/CD**
+
+- Automated deployment pipelines with GitHub Actions
+- Containerization and orchestration with Docker and Kubernetes
+- Automated testing integration and quality gates
+- Monitoring, logging, and alerting for production systems
 
 ---
 
