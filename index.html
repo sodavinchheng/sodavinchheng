@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sodavin Chheng - CV</title>
+    <style>
+      @page {
+        size: A4;
+        margin: 0.75in;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Arial", sans-serif;
+        font-size: 11px;
+        line-height: 1.5;
+        color: #333;
+        background: white;
+        max-width: 8.5in;
+        margin: 0 auto;
+        padding: 0.75in;
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 30px;
+        border-bottom: 2px solid #2563eb;
+        padding-bottom: 20px;
+      }
+
+      .name {
+        font-size: 24px;
+        font-weight: bold;
+        color: #1e40af;
+        margin-bottom: 5px;
+        letter-spacing: 1px;
+      }
+
+      .title {
+        font-size: 14px;
+        color: #6b7280;
+        margin-bottom: 10px;
+        font-weight: 600;
+      }
+
+      .contact-info {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        font-size: 10px;
+      }
+
+      .contact-item a {
+        color: #374151;
+        text-decoration: none;
+      }
+
+      .contact-item a:hover {
+        color: #2563eb;
+        text-decoration: underline;
+      }
+
+      @media print {
+        .contact-item a {
+          color: #374151 !important;
+          text-decoration: none !important;
+        }
+      }
+
+      .section {
+        margin-bottom: 25px;
+      }
+
+      .section-title {
+        font-size: 14px;
+        font-weight: bold;
+        color: #1e40af;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-bottom: 12px;
+        padding-bottom: 4px;
+        border-bottom: 1px solid #e5e7eb;
+      }
+
+      .summary {
+        text-align: justify;
+        line-height: 1.5;
+        color: #374151;
+      }
+
+      .skills-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+        margin-bottom: 10px;
+      }
+
+      .skill-category {
+        margin-bottom: 6px;
+      }
+
+      .skill-title {
+        font-weight: bold;
+        color: #1f2937;
+        margin-bottom: 2px;
+      }
+
+      .skill-list {
+        color: #4b5563;
+        font-size: 10px;
+      }
+
+      .experience-item,
+      .project-item {
+        margin-bottom: 20px;
+      }
+
+      .job-header,
+      .project-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 4px;
+      }
+
+      .job-title,
+      .project-title {
+        font-weight: bold;
+        color: #1f2937;
+        font-size: 12px;
+      }
+
+      .company,
+      .project-tech {
+        color: #6b7280;
+        font-size: 11px;
+      }
+
+      .date,
+      .project-duration {
+        color: #6b7280;
+        font-size: 10px;
+        white-space: nowrap;
+      }
+
+      .job-description,
+      .project-description {
+        margin-top: 4px;
+      }
+
+      .job-description ul,
+      .project-description ul {
+        list-style: none;
+        padding-left: 0;
+      }
+
+      .job-description li,
+      .project-description li {
+        margin-bottom: 3px;
+        padding-left: 12px;
+        position: relative;
+        color: #4b5563;
+        font-size: 10px;
+      }
+
+      .job-description li::before,
+      .project-description li::before {
+        content: "•";
+        color: #2563eb;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+
+      .education-item {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8px;
+      }
+
+      .degree {
+        font-weight: bold;
+        color: #1f2937;
+      }
+
+      .university {
+        color: #6b7280;
+      }
+
+      .additional-info ul {
+        list-style: none;
+        padding-left: 0;
+      }
+
+      .additional-info li {
+        margin-bottom: 4px;
+        padding-left: 12px;
+        position: relative;
+        color: #4b5563;
+        font-size: 10px;
+      }
+
+      .additional-info li::before {
+        content: "•";
+        color: #2563eb;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+
+      .info-label {
+        font-weight: bold;
+        color: #1f2937;
+        margin-bottom: 2px;
+      }
+
+      .footer-note {
+        margin-top: 20px;
+        padding-top: 10px;
+        border-top: 1px solid #e5e7eb;
+        font-size: 9px;
+        color: #6b7280;
+        text-align: center;
+        font-style: italic;
+      }
+
+      @media print {
+        body {
+          margin: 0;
+          padding: 0.75in;
+          font-size: 10px;
+        }
+
+        .section {
+          margin-bottom: 15px;
+        }
+
+        .header {
+          margin-bottom: 15px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="name">SODAVIN CHHENG</div>
+      <div class="title">Full Stack Software Engineer</div>
+      <div class="contact-info">
+        <div class="contact-item">
+          📧
+          <a href="mailto:sodavinchheng4679@gmail.com"
+            >sodavinchheng4679@gmail.com</a
+          >
+        </div>
+        <div class="contact-item">
+          🔗
+          <a href="https://linkedin.com/in/sodavin-chheng" target="_blank"
+            >linkedin.com/in/sodavin-chheng</a
+          >
+        </div>
+        <div class="contact-item">
+          💻
+          <a href="https://github.com/sodavinchheng" target="_blank"
+            >github.com/sodavinchheng</a
+          >
+        </div>
+        <div class="contact-item">📍 Tokyo, Japan</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Professional Summary</div>
+      <div class="summary">
+        Experienced Full Stack Software Engineer with about 4+ years developing
+        scalable web and mobile applications. Expertise in TypeScript, React,
+        Python, and cloud technologies. Proven track record of delivering
+        high-quality solutions across various different domains. Strong advocate
+        for type-safe development, clean architecture, and automated testing
+        practices. Lived and worked in Japan for 2+ years, fluent in English and
+        conversational in Japanese (JLPT N2).
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Technical Skills</div>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <div class="skill-title">Programming Languages:</div>
+          <div class="skill-list">
+            HTML, CSS, JavaScript, TypeScript, Python, Dart
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="skill-title">Frontend Technologies:</div>
+          <div class="skill-list">
+            React, Next.js, Vue.js, React Native, Flutter, Tailwind
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="skill-title">Backend Technologies:</div>
+          <div class="skill-list">Django, FastAPI, Node.js, Express.js</div>
+        </div>
+        <div class="skill-category">
+          <div class="skill-title">Mobile Development:</div>
+          <div class="skill-list">
+            React Native, Flutter, iOS, Android, Cross-platform
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="skill-title">Databases:</div>
+          <div class="skill-list">PostgreSQL, MySQL, Firebase Firestore</div>
+        </div>
+        <div class="skill-category">
+          <div class="skill-title">Cloud & DevOps:</div>
+          <div class="skill-list">AWS, Google Cloud Platform, Docker</div>
+        </div>
+        <div class="skill-category">
+          <div class="skill-title">Testing & Quality:</div>
+          <div class="skill-list">
+            Jest, Playwright, Selenium, Unit Testing, ESLint, Prettier
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="skill-title">Other:</div>
+          <div class="skill-list">
+            RESTful APIs, WebSocket, Git, GitHub Actions
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Work Experience</div>
+
+      <div class="experience-item">
+        <div class="job-header">
+          <div>
+            <div class="job-title">Full Stack Developer</div>
+            <div class="company">クアッド株式会社 | Tokyo, Japan</div>
+          </div>
+          <div class="date">07/2022 - Present</div>
+        </div>
+        <div class="job-description">
+          <ul>
+            <li>
+              Developed and maintained many production applications serving a
+              large amount of daily active users
+            </li>
+            <li>
+              Developed responsive web applications using React, Next.js, Vue,
+              and TypeScript
+            </li>
+            <li>
+              Led implementation of TypeScript across frontend projects,
+              reducing runtime errors by 40%
+            </li>
+            <li>
+              Designed and implemented RESTful APIs using Python frameworks
+              (Django, FastAPI)
+            </li>
+            <li>
+              Optimized database queries and implemented caching strategies,
+              improving response times by 60%
+            </li>
+            <li>
+              Built and deployed cloud-native applications on AWS and Google
+              Cloud Platform
+            </li>
+            <li>
+              Implemented comprehensive testing strategies including unit,
+              integration, and E2E tests
+            </li>
+            <li>
+              Created automated CI/CD pipelines using GitHub Actions, reducing
+              deployment time by 50%
+            </li>
+            <li>
+              Mentored junior developers and established coding standards and
+              best practices
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="experience-item">
+        <div class="job-header">
+          <div>
+            <div class="job-title">Mobile App Developer</div>
+            <div class="company">Earlyphant Co Ltd | Phnom Penh, Cambodia</div>
+          </div>
+          <div class="date">12/2020 - 07/2022</div>
+        </div>
+        <div class="job-description">
+          <ul>
+            <li>
+              Maintain legacy mobile applications using native iOS and Android
+              technologies
+            </li>
+            <li>
+              Built cross-platform mobile applications using React Native and
+              Flutter
+            </li>
+            <li>
+              Participated in code reviews and maintained documentation for
+              development processes
+            </li>
+            <li>
+              Worked closely with UX/UI designers to implement pixel-perfect
+              interfaces
+            </li>
+            <li>
+              Connected mobile applications to backend services using Firebase
+              and REST APIs
+            </li>
+            <li>
+              Released the company's first mobile app on both iOS and Android
+              platforms
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Education</div>
+      <div class="education-item">
+        <div>
+          <div class="degree">Bachelor of Software Engineering</div>
+          <div class="university">Kirirom Institute of Technology</div>
+        </div>
+        <div class="date">2018 - 2022</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Additional Information</div>
+      <div class="additional-info">
+        <div class="info-label">Languages:</div>
+        <ul>
+          <li>Khmer (Native)</li>
+          <li>English (Professional fluency)</li>
+          <li>Japanese (Conversational JLPT N2)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-note">
+      "Good code is its own best documentation. But great code delivers
+      exceptional user experiences."
+    </div>
+  </body>
+</html>
